@@ -1,8 +1,5 @@
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 
-import CopyButton from "@/components/custom/copy-button";
-import Footer from "@/components/custom/footer";
 
 type TechStackItem = {
   name: string;
@@ -15,31 +12,33 @@ type TechStack = {
 
 export default function Home() {
   const t = useTranslations("Home");
-  const techStack = t.raw("tech_stack") as TechStack;
+  // const techStack = t.raw("tech_stack") as TechStack;
 
-  const links = [
-    "https://nextjs.org/",
-    "https://www.typescriptlang.org/",
-    "https://tailwindcss.com/",
-    "https://eslint.org/",
-    "https://prettier.io/",
-    "https://github.com/tailwindlabs/prettier-plugin-tailwindcss",
-    "https://github.com/IanVS/prettier-plugin-sort-imports",
-    "https://typicode.github.io/husky/",
-  ];
+  // const links = [
+  //   "https://nextjs.org/",
+  //   "https://www.typescriptlang.org/",
+  //   "https://tailwindcss.com/",
+  //   "https://eslint.org/",
+  //   "https://prettier.io/",
+  //   "https://github.com/tailwindlabs/prettier-plugin-tailwindcss",
+  //   "https://github.com/IanVS/prettier-plugin-sort-imports",
+  //   "https://typicode.github.io/husky/",
+  // ];
 
   return (
     <>
       <section className="min-h-[94vh] w-full py-12 lg:py-14 xl:py-24 2xl:py-28">
         <div className="container mx-auto space-y-8 px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
-            <div className="space-y-4">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                {t("title")}
-              </h1>
-              <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">{t("description")}</p>
-            </div>
-            <div className="flex items-center py-6">
+            {/* <div className="space-y-4"> */}
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+              {/* {t("title")}
+                 */}
+              React Kolkata loading 🔥🚀
+            </h1>
+            {/* <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">{t("description")}</p> */}
+            {/* </div> */}
+            {/* <div className="flex items-center py-6">
               <CopyButton />
             </div>
             <p className="mx-auto max-w-[700px] text-gray-700 md:text-lg">
@@ -56,10 +55,11 @@ export default function Home() {
                 </div>
               </Link>
             ))}
+          </div> */}
           </div>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
