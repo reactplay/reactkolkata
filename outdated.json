@@ -1,0 +1,72 @@
+{
+  "@next/eslint-plugin-next": {
+    "current": "15.4.4",
+    "wanted": "15.4.5",
+    "latest": "15.4.5",
+    "dependent": "react-kolkata",
+    "location": "/home/runner/work/react-kolkata/react-kolkata/node_modules/@next/eslint-plugin-next"
+  },
+  "@playwright/test": {
+    "current": "1.54.1",
+    "wanted": "1.54.2",
+    "latest": "1.54.2",
+    "dependent": "react-kolkata",
+    "location": "/home/runner/work/react-kolkata/react-kolkata/node_modules/@playwright/test"
+  },
+  "@types/node": {
+    "current": "20.19.9",
+    "wanted": "20.19.9",
+    "latest": "24.1.0",
+    "dependent": "react-kolkata",
+    "location": "/home/runner/work/react-kolkata/react-kolkata/node_modules/@types/node"
+  },
+  "@types/react": {
+    "current": "19.1.8",
+    "wanted": "19.1.9",
+    "latest": "19.1.9",
+    "dependent": "react-kolkata",
+    "location": "/home/runner/work/react-kolkata/react-kolkata/node_modules/@types/react"
+  },
+  "@types/react-dom": {
+    "current": "19.1.6",
+    "wanted": "19.1.7",
+    "latest": "19.1.7",
+    "dependent": "react-kolkata",
+    "location": "/home/runner/work/react-kolkata/react-kolkata/node_modules/@types/react-dom"
+  },
+  "eslint-config-next": {
+    "current": "15.4.4",
+    "wanted": "15.4.4",
+    "latest": "15.4.5",
+    "dependent": "react-kolkata",
+    "location": "/home/runner/work/react-kolkata/react-kolkata/node_modules/eslint-config-next"
+  },
+  "next": {
+    "current": "15.4.4",
+    "wanted": "15.4.4",
+    "latest": "15.4.5",
+    "dependent": "react-kolkata",
+    "location": "/home/runner/work/react-kolkata/react-kolkata/node_modules/next"
+  },
+  "react": {
+    "current": "19.1.0",
+    "wanted": "19.1.0",
+    "latest": "19.1.1",
+    "dependent": "react-kolkata",
+    "location": "/home/runner/work/react-kolkata/react-kolkata/node_modules/react"
+  },
+  "react-dom": {
+    "current": "19.1.0",
+    "wanted": "19.1.0",
+    "latest": "19.1.1",
+    "dependent": "react-kolkata",
+    "location": "/home/runner/work/react-kolkata/react-kolkata/node_modules/react-dom"
+  },
+  "typescript": {
+    "current": "5.8.3",
+    "wanted": "5.9.2",
+    "latest": "5.9.2",
+    "dependent": "react-kolkata",
+    "location": "/home/runner/work/react-kolkata/react-kolkata/node_modules/typescript"
+  }
+}
